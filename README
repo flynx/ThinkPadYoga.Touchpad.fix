@@ -16,3 +16,16 @@ reset_synaptics.ps1
 reset_synaptics.ahk
 	AutoHotkey binding to run the task manually.
 
+
+NOTEs:
+- reset_synaptics.ps1 is expected to be at:
+	"%ProgramFiles(x86)%\bin\reset_synaptics.ps1"
+
+  your setup may differ but for most people that's going to be: 
+  	"C:\Program Files (x86)\bin\reset_synaptics.ps1"
+
+- importing a task: 
+	https://technet.microsoft.com/en-us/library/cc722156.aspx
+
+- if you want the hotkey and do not have AutoHotkey, all the info is here:
+	https://autohotkey.com/
