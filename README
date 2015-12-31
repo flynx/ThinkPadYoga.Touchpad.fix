@@ -1,0 +1,18 @@
+This set of files fixes a problem with the synaptics touchpad driver 
+dropping some guestures after wake from sleep/hibernate.
+
+Reset Synaptics Touchpad (admin).xml 
+	a task (task scheduler) that runs on wake and resets the 
+	service/software...
+
+	This expects that reset_synaptics.ps1 be located at:
+		%ProgramFiles(x86)%\bin\reset_synaptics.ps1
+
+
+reset_synaptics.ps1	
+	the script called by the task that will do the dirty work.
+
+
+reset_synaptics.ahk
+	AutoHotkey binding to run the task manually.
+
